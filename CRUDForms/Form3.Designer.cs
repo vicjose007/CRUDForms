@@ -172,7 +172,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dgvClient);
             this.Controls.Add(this.label1);
-            this.Name = "Form3";
+            this.Name.Text = "Form3";
             this.Text = "Client Type Administration";
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvClient)).EndInit();

@@ -201,5 +201,19 @@ namespace CRUDForms
             btnUpdate.Visible = false;
             btnDelete.Visible = false;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 client = new Form2();
+
+            client.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 contact = new Form3();
+
+            contact.Show();
+        }
     }
 }
